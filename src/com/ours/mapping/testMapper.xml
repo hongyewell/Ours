@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ours.mapping.testMapper">
+
+    <insert id="insertOursTest" parameterType="hashmap">
+    	insert into test(title, content)
+		values(#{title}, #{content});
+    </insert>
+
+
+    <select id="selectOursTest" parameterType="hashmap" resultType="com.ours.pojo.test">
+        select * from test;
+    </select>
+</mapper>
