@@ -9,7 +9,7 @@
     </insert>
 
 
-    <select id="selectOursTest" parameterType="hashmap" resultType="com.ours.pojo.test">
+    <select id="selectOursTest" parameterType="hashmap" resultType="com.ours.pojo.Test">
         select * from test;
     </select>
 </mapper>

@@ -17,5 +17,6 @@
     <mappers>
         <!-- 注册userMapper.xml文件-->
         <mapper resource="com/ours/mapping/testMapper.xml"/>
+        <mapper resource="com/ours/mapping/batchTestMapper.xml"/>
     </mappers>
 </configuration>

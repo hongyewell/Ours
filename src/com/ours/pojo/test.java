@@ -3,7 +3,7 @@ package com.ours.pojo;
 /**
  * Created by Administrator on 2016/5/17.
  */
-public class test {
+public class Test {
     private int id;
     private String content;
     private String title;
@@ -32,17 +32,17 @@ public class test {
         this.title = title;
     }
 
-    public test(String content, String title) {
+    public Test(String content, String title) {
         this.content = content;
         this.title = title;
     }
 
-    public test(int id, String content, String title) {
+    public Test(int id, String content, String title) {
         this.id = id;
         this.content = content;
         this.title = title;
     }
 
-    public test() {
+    public Test() {
     }
 }

@@ -62,7 +62,7 @@
                         subtitle = title;
                     }
                     html += '<tr id=\"why\">'
-                            +'<td  class=\"test\" title='+title+' style=\"text-overflow: ellipsis\"> '+subtitle+'</td>'
+                            +'<td  class=\"Test\" title='+title+' style=\"text-overflow: ellipsis\"> '+subtitle+'</td>'
                             +'<td>'+content+'</td>'
                             +'</tr>';
                 }

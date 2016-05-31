@@ -1,7 +1,7 @@
 package com.ours.dao;
 
 
-import com.ours.pojo.test;
+import com.ours.pojo.Test;
 import com.ours.util.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
 
@@ -32,8 +32,8 @@ public class TestDao {
     }
 
 
-    public List<test> selectOursTest(){
-        List<test> test = new ArrayList<test>();
+    public List<Test> selectOursTest(){
+        List<Test> test = new ArrayList<Test>();
         String selectOursTest = "com.ours.mapping.testMapper.selectOursTest";
         test =  session.selectList(selectOursTest);
         return test;
