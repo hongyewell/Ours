@@ -22,6 +22,7 @@
     $(function () {
 
         query();
+
     })
 
     function test(){
@@ -55,8 +56,13 @@
                 for(var i=0;i<data.length; i++){
                     var title = data[i].title;
                     var content = data[i].content;
-                    html += '<tr>'
-                            +'<td>'+title+'</td>'
+                    if(title.length>2){
+                        var subtitle = title.substring(0,1)+"...";
+                    }else{
+                        subtitle = title;
+                    }
+                    html += '<tr id=\"why\">'
+                            +'<td  class=\"test\" title='+title+' style=\"text-overflow: ellipsis\"> '+subtitle+'</td>'
                             +'<td>'+content+'</td>'
                             +'</tr>';
                 }
@@ -64,6 +70,8 @@
             }
         });
     }
+
+
 </script>
 
 </body>

@@ -26,6 +26,9 @@ public class TestDao {
         params.put("content", content);
         session.insert(insertOursTest, params);
         session.commit();
+
+
+
     }
 
 
