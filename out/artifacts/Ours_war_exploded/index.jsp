@@ -11,7 +11,7 @@
     <title>ours</title>
 </head>
 <body>
-<h1>hello ours</h1>
+<h1>hello hongyewell</h1>
 <input id="title"  placeholder="title" type="text">
 <input id="content" placeholder="content" type="text">
 <input type="button" value="提交" onclick="test()">
